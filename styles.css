@@ -1,2 +1,78 @@
-
-/* Your CSS Code here. */
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: yellow;
+}
+#bigDiv{
+    background-color: black;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+header{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color:yellow;
+}
+nav{
+    font-size: 50px;
+    padding: 20px;
+    word-spacing: 50px;
+}
+main{
+    display: flex;
+}
+main>div{
+    padding: 30px;
+}
+#actor>div>div>img{
+    height: 200px;
+    width: 170px;
+    border-radius: 20px;
+}
+#actor{
+    padding: 30px;
+}
+#actor>div{
+    display: flex;
+}
+#actor>div>div{
+    padding-right: 40px;
+    text-align: center;
+}
+#quote{
+    padding-left: 30px;
+}
+#quote>div>li{
+    padding: 10px;
+    font-size: 25px;
+    font-style: italic;
+}
+aside{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: yellow;
+    color: black;
+    
+}
+footer{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+summary{
+    padding: 10px;
+    font-size: 30px;
+    /* letter-spacing: 1px; */
+}
+summary>b{
+    color: yellow;
+}
+summary>p>b{
+    color: yellow;
+}
